@@ -1,0 +1,10 @@
+[meta]
+version = "git"
+maintainer = "AVS Origami"
+sources = ["https://github.com/avs-origami/arc/archive/refs/heads/main.tar.gz"]
+checksums = ["d7d10dc129abb5fa2889a0a567ce3a2444d95594a43bf4cd781916660b49d369"]
+
+[deps]
+
+[mkdeps]
+rust = "*"

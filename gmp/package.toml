@@ -1,0 +1,10 @@
+[meta]
+version = "6.3.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz"]
+checksums = ["fffe4996713928ae19331c8ef39129e46d3bf5b7182820656fd4639435cd83a4"]
+
+[deps]
+
+[mkdeps]
+m4 = "*"

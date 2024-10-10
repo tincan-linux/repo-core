@@ -1,0 +1,57 @@
+#!/bin/sh -e
+
+# Build and install regular busybox.
+# This excludes utilities which require 'suid' to function.
+make
+make CONFIG_PREFIX=$1 install
+
+mv $1/bin/* $1/usr/bin/
+mv $1/sbin/* $1/usr/bin/
+mv $1/usr/sbin/* $1/usr/bin/
+
+rmdir $1/bin
+rmdir $1/sbin
+rmdir $1/usr/sbin
+rm $1/linuxrc
+
+# Rename the binary temporarily.
+mv "$1/usr/bin/busybox" "$1/usr/bin/busybox-nosuid"
+
+# Build and install suid busybox.
+# This _only_ includes utlities which require 'suid' to function.
+cp -f .config-suid .config
+make
+make CONFIG_PREFIX=$1 install
+
+mv $1/bin/* $1/usr/bin/
+rmdir $1/bin
+
+# Aptly name the busybox binaries.
+mv -f "$1/usr/bin/busybox"        "$1/usr/bin/busybox-suid"
+mv -f "$1/usr/bin/busybox-nosuid" "$1/usr/bin/busybox"
+
+# Install the non-suid symlinks.
+"$1/usr/bin/busybox" --list | while read -r bin; do
+    ln -sf busybox "$1/usr/bin/$bin"
+done
+
+# Install the suid symlinks.
+"$1/usr/bin/busybox-suid" --list | while read -r bin; do
+    ln -sf busybox-suid "$1/usr/bin/$bin"
+done
+
+# Set suid on busybox suid.
+chmod u+s "$1/usr/bin/busybox-suid"
+
+# The acpid command requires that this directory exist
+# and does not automatically create it..
+mkdir -p "$1/etc/acpi"
+
+# Install runit services.
+for s in acpid crond syslogd mdev ntpd; do
+    mkdir -p "$1/etc/sv/$s"
+    cp -f "$s.run" "$1/etc/sv/$s/run"
+    ln -sf "/run/runit/supervise.$s" "$1/etc/sv/$s/supervise"
+done
+
+cp -f mdev.conf "$1/etc/mdev.conf"

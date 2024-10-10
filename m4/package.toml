@@ -1,0 +1,9 @@
+[meta]
+version = "1.4.19"
+maintainer = "AVS Origami"
+sources = ["https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.xz"]
+checksums = ["eadd696d929b0359bf7bd17390c2bcc3ad1cbf36126854eb545a50b86ca97e9e"]
+
+[deps]
+
+[mkdeps]

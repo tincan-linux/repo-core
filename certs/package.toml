@@ -1,0 +1,9 @@
+[meta]
+version = "2024-07-02"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://curl.se/ca/cacert-2024-07-02.pem"]
+checksums = ["d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e"]
+
+[deps]
+
+[mkdeps]

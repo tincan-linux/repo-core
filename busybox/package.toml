@@ -1,0 +1,32 @@
+[meta]
+version = "1.36.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://busybox.net/downloads/busybox-1.36.1.tar.bz2",
+    "files/.config",
+    "files/.config-suid",
+    "files/acpid.run",
+    "files/crond.run",
+    "files/mdev.conf",
+    "files/mdev.run",
+    "files/ntpd.run",
+    "files/syslogd.run",
+]
+
+checksums = [
+    "dfdfc1b9aa41d5134e087d904c0a5f6958825f0e94db1d2cb5ea93088247c886",
+    "1f17e5cd1688314b16cce3aa8690711cb28fecf9779af87439b4ac5752d59a6c",
+    "88d4564c6f2a39cae3d9ea559e23ce778d3688dfca054abd66c2174e6f88c797",
+    "cd1b92ae0db6357b11e1669e8866b9cff94522087cfa146ca192000bee07d904",
+    "391a00f117af366881d48012b83e977503d8d0e3a1afe79b102ce26faa2f4f85",
+    "13856c363c5654890e85d7f18b83b10cc72e85a7fa1e8d8a768db16bd0fc0dd1",
+    "6cb79c479c1fb22c89ea4b98b9f34d7ed5c09a0e796886d1651720ea789d9fe7",
+    "8901b39de476372c4701ba88df0872818252b638e74922a22a483db41b487016",
+    "f17db98491aab9d838e5c0b64e896b619bba5b9c819f11871692338c94cbcbd4",
+]
+
+[deps]
+
+[mkdeps]
+linux-headers = "*"

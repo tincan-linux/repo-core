@@ -1,0 +1,22 @@
+[meta]
+version = "14.2.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://gcc.gnu.org/pub/gcc/releases/gcc-14.2.0/gcc-14.2.0.tar.xz",
+    "files/c99"
+]
+
+checksums = [
+    "ffee29313fd417420454d985b6740be3755e6465e14173c420c02e3719a51539",
+    "0930e07dc2c5bf1172f3fd003a1be7abc3c0c420ce5bd76bc2e514c63800adcb",
+]
+
+[deps]
+binutils = "*"
+gmp = "*"
+mpc = "*"
+mpfr = "*"
+zlib = "*"
+
+[mkdeps]

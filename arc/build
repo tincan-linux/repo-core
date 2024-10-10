@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+cargo build --release
+mkdir -pv $1/usr/bin
+cp target/release/arc $1/usr/bin/arc

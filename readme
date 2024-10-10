@@ -1,0 +1,20 @@
+|---------------------------------|
+| Tin Can Linux                   |   _____ _           ___            
+|---------------------------------|  /__   (_)_ __     / __\__ _ _ __  
+| A tiny Linux distro made from   |    / /\/ | '_ \   / /  / _` | '_ \ 
+| scraps I found on the internet. |   / /  | | | | | / /__| (_| | | | |
+|---------------------------------|   \/   |_|_| |_| \____/\__,_|_| |_|
+=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+
+This is the core package repository for Tin Can Linux.
+
+=== Usage
+=========
+
+Clone this repository to your repo directory and add it to $ARC_PATH.
+
+=== Contributing
+================
+
+Issues are welcome, but pull requests will not be merged. If you want to submit
+a new package, you can do so in the community repo. (coming soon)
