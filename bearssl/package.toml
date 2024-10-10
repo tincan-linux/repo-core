@@ -1,0 +1,9 @@
+[meta]
+version = "0.6"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://bearssl.org/bearssl-0.6.tar.gz"]
+checksums = ["a34ab02f58c4c5155fef33404b961fe6afc931acfc5fd0c04993f3a88ba6269d"]
+
+[deps]
+
+[mkdeps]

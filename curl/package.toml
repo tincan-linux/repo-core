@@ -1,0 +1,19 @@
+[meta]
+version = "8.10.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://curl.se/download/curl-8.10.1.tar.xz",
+    "files/docs.txt",
+]
+
+checksums = [
+    "897e5ef8ba9a60a20996f51dcd5a0355c9786ff9b030bc5645ea6531d8415c2a",
+    "bd77b17c67bf0568655878742f5c28fee5950c08054fb443a1302bd30920e72e",
+]
+
+[deps]
+bearssl = "*"
+zlib = "*"
+
+[mkdeps]

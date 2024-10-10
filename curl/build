@@ -1,0 +1,33 @@
+#!/bin/sh -e
+
+sed 's/\(curl_LDADD =\)/\1 -all-static/' src/Makefile.in > _
+mv -f _ src/Makefile.in
+
+# Trick make into thinking the docs are already generated
+# to avoid dependency on perl.
+while read line; do
+    touch $line
+done < docs.txt
+
+./configure \
+    ac_cv_path_PERL=true \
+    --prefix=/usr \
+    --enable-ipv6 \
+    --enable-unix-sockets \
+    --enable-symbol-hiding \
+    --disable-manual \
+    --disable-ldap \
+    --disable-ares \
+    --with-bearssl \
+    --with-pic \
+    --without-librtmp \
+    --without-libpsl \
+    --without-libidn2 \
+    --without-brotli \
+    --without-zstd
+
+make
+make DESTDIR="$1" install
+
+# Remove the fake docs.
+rm -rf $1/usr/share/man/man3
