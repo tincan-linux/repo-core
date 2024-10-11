@@ -7,3 +7,6 @@ checksums = ["f5df35abda6bc28ed2375b7c183e9c040626f1dce367b65bc2c73b0ab67e8deb"]
 [deps]
 
 [mkdeps]
+
+[provides]
+rust = "1.81.0"

@@ -1,6 +1,6 @@
 [meta]
 version = "4.4.1"
-maintainer = "AVS Origami"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
 sources = ["https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz"]
 checksums = ["a7d8aee97b7e9a525ef561afa84eea0d929f246e3aafa420231c0602151cf9eb"]
 
