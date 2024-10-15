@@ -1,0 +1,9 @@
+[meta]
+version = "2.16.03"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz"]
+checksums = ["16e081124c6eac65674e4f7e93d642826c11950e038e0656a23007a8899bf532"]
+
+[deps]
+
+[mkdeps]

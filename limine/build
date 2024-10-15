@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+./configure \
+    --prefix=/usr \
+    --sbindir=/usr/bin \
+    --libexecdir=/usr/lib \
+    --enable-bios \
+    --enable-uefi-x86-64
+
+make
+make DESTDIR=$1 install

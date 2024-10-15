@@ -1,0 +1,10 @@
+[meta]
+version = "2.6.4"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/westes/flex/files/981163/flex-2.6.4.tar.gz"]
+checksums = ["d78b714ac38bd9de7f9b44a078efed82e96ed43e7cf9cd33944a7f379a2d09a4"]
+
+[deps]
+
+[mkdeps]
+m4 = "*"

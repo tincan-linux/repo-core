@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+./config \
+    --prefix=/usr \
+    --openssldir=/etc/ssl \
+    --libdir=lib \
+    shared \
+    zlib-dynamic
+
+make depend
+make
+
+make DESTDIR=$1 install_sw install_ssldirs install_man_docs
+rmdir $1/etc/ssl/certs

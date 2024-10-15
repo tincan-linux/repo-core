@@ -5,9 +5,9 @@ mv -f _ src/Makefile.in
 
 # Trick make into thinking the docs are already generated
 # to avoid dependency on perl.
-while read line; do
-    touch $line
-done < docs.txt
+#while read line; do
+#    touch $line
+#done < docs.txt
 
 ./configure \
     ac_cv_path_PERL=true \
@@ -18,7 +18,7 @@ done < docs.txt
     --disable-manual \
     --disable-ldap \
     --disable-ares \
-    --with-bearssl \
+    --with-openssl \
     --with-pic \
     --without-librtmp \
     --without-libpsl \

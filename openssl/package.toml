@@ -1,0 +1,11 @@
+[meta]
+version = "3.3.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/openssl/openssl/releases/download/openssl-3.3.2/openssl-3.3.2.tar.gz"]
+checksums = ["d8d58e9dc447b40cfcc8020b15ca2bdf5de32009eb85272f6d560017791b0f06"]
+
+[deps]
+certs = "*"
+
+[mkdeps]
+perl = "*"

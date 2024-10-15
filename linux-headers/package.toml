@@ -1,0 +1,9 @@
+[meta]
+version = "6.11.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.11.1.tar.xz"]
+checksums = ["825da8aad8273be3c3d97804cec6e00c76791dcbf50d587a274ef357066e534f"]
+
+[deps]
+
+[mkdeps]
