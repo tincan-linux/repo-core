@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+mkdir -p $1/usr/bin
+mkdir -p $1/etc
+mkdir -p $1/usr/share/zsh/site-functions
+
+install -Dm755 rc $1/usr/bin/rc
+install -Dm644 minirc.conf $1/etc/minirc.conf.new
+install -Dm644 inittab $1/etc/inittab.new
+install -Dm644 extra/_minirc $1/usr/share/zsh/site-functions/_minirc
+install -Dm755 extra/shutdown.sh $1/usr/bin/shutdown

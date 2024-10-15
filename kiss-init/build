@@ -1,9 +1,0 @@
-#!/bin/sh -e
-
-mkdir -pv $1/usr/bin
-
-cp -r etc $1
-cp -r lib $1/usr/lib
-
-${CC:-gcc} -o $1/usr/bin/kpow bin/kpow.c $CFLAGS -static
-${CC:-gcc} -o $1/usr/bin/kall bin/kall.c $CFLAGS -static

@@ -1,0 +1,9 @@
+[meta]
+version = "128a23f"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/hut/minirc/archive/128a23fa6efde3afaa6ef9ef93b9aecc5f38f852.tar.gz"]
+checksums = ["4286c2822ca979c479c4cf3e16ccdb828d24bf7681de81c053789225e6887909"]
+
+[deps]
+
+[mkdeps]

@@ -1,9 +1,0 @@
-[meta]
-version = "1.0.3"
-maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/kisslinux/init/archive/refs/tags/1.0.3.tar.gz"]
-checksums = ["a3d9b1aa9c67ca36c92cf880d336af56cec33522de127902d08cc3d66d0277c0"]
-
-[deps]
-
-[mkdeps]
