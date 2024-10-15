@@ -1,0 +1,10 @@
+[meta]
+version = "0.1.0"
+maintainer = "AVS Origami"
+sources = ["https://github.com/tincan-linux/init/archive/refs/tags/v0.1.0.tar.gz"]
+checksums = ["9de4923ca3b81ab985ca0445bf6c9e30dd806bf34e739a9b42d2ebf1a9455463"]
+
+[deps]
+busybox = "*"
+
+[mkdeps]
