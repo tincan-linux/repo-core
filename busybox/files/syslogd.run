@@ -1,2 +1,3 @@
 #!/bin/sh
-exec syslogd -n 2>&1
+
+exec syslogd -n > /run/log/syslogd 2>&1

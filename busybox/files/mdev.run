@@ -5,5 +5,5 @@
 printf '\n' 2>/dev/null \
     > /proc/sys/kernel/hotplug
 
-exec mdev -df 2>&1
+exec mdev -df > /run/log/mdev 2>&1
 

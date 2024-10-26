@@ -1,2 +1,3 @@
 #!/bin/sh
-exec acpid -f 2>&1
+
+exec acpid -f > /run/log/acpid 2>&1

@@ -1,2 +1,3 @@
 #!/bin/sh
-exec crond -f 2>&1
+
+exec crond -f > /run/log/crond 2>&1
