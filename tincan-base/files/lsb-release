@@ -1,0 +1,4 @@
+DISTRIB_ID="Tin Can Linux"
+DISTRIB_RELEASE="alpha"
+DISTRIB_CODENAME="tincan"
+DISTRIB_DESCRIPTION="A disto made from scraps I found on the internet"

@@ -1,0 +1,6 @@
+NAME="Tin Can Linux"
+VERSION="alpha"
+ID="tincan"
+PRETTY_NAME="Tin Can Linux"
+VERSION_CODENAME="helium"
+HOME_URL="https://tincan-linux.github.io"
