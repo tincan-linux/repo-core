@@ -1,8 +1,26 @@
 [meta]
 version = "0.1.0"
 maintainer = "AVS Origami"
-sources = ["https://github.com/tincan-linux/init/archive/refs/tags/v0.1.0.tar.gz"]
-checksums = ["11e9b64a4048fae85dbecc7c267426da13096ee03fc329cbba7e8ac9aac2440a"]
+
+sources = [
+    "https://github.com/tincan-linux/init/archive/refs/tags/v0.1.0.tar.gz",
+    "files/group",
+    "files/hosts",
+    "files/issue",
+    "files/lsb-release",
+    "files/os-release",
+    "files/passwd",
+]
+
+checksums = [
+    "11e9b64a4048fae85dbecc7c267426da13096ee03fc329cbba7e8ac9aac2440a",
+    "b54fab62aa208a7a6140cea42736676c8a57a4312c9ad667dfc39fb571219dd2",
+    "62779d3a3c977afc86a74cabb66e662c7cba2084532da74afc2e635b748e3503",
+    "d62cbf8d0a349956488d1c6d53c06061f01f38a55fbbc702cd64364a8782a5fe",
+    "4d45cd6f6c5557a977dec4fdd0da60f3b3cc5f5326a9bc4a471698bb64c14708",
+    "15f59dfe1186e4817d9d106de8d8034dab572a09ae97435af3537d4ddf8d654b",
+    "99018880999ef75f08f33ca60415ed0e4eb2bb4e25ea4bd58b1e136fcd4e2b4c",
+]
 
 [deps]
 

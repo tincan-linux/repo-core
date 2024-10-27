@@ -1,3 +1,8 @@
 #!/bin/sh -e
 
 make DESTDIR=$1 install
+
+mkdir -pv $1/etc
+for f in group hosts issue lsb-release os-release passwd; do
+    cp $f $1/etc/
+done
