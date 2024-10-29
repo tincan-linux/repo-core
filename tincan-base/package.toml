@@ -3,7 +3,7 @@ version = "0.1.0"
 maintainer = "AVS Origami"
 
 sources = [
-    "https://github.com/tincan-linux/init/archive/refs/tags/v0.1.0.tar.gz",
+    "https://github.com/tincan-linux/init/archive/refs/tags/v0.2.0.tar.gz",
     "files/group",
     "files/hosts",
     "files/issue",
@@ -13,7 +13,7 @@ sources = [
 ]
 
 checksums = [
-    "11e9b64a4048fae85dbecc7c267426da13096ee03fc329cbba7e8ac9aac2440a",
+    "28188af4df381cfafbb38821edf1453277b065304d21bfe176b0bd31d65be7ab",
     "b54fab62aa208a7a6140cea42736676c8a57a4312c9ad667dfc39fb571219dd2",
     "62779d3a3c977afc86a74cabb66e662c7cba2084532da74afc2e635b748e3503",
     "d62cbf8d0a349956488d1c6d53c06061f01f38a55fbbc702cd64364a8782a5fe",
