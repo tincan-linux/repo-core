@@ -27,8 +27,6 @@ esac
     --infodir=/usr/share/info \
     --disable-multilib \
     --disable-symvers \
-    --disable-libmpx \
-    --disable-libmudflap \
     --disable-libsanitizer \
     --disable-werror \
     --disable-fixed-point \
