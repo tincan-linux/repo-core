@@ -1,8 +1,8 @@
 [meta]
-version = "0.0.2"
+version = "0.0.3"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/avs-origami/arc/archive/refs/tags/v0.0.2.tar.gz"]
-checksums = ["0f7f05504e63aeaa32119980a40dc35efb58316f5bea78f672c5380d21884a63"]
+sources = ["https://github.com/avs-origami/arc/archive/refs/tags/v0.0.3.tar.gz"]
+checksums = ["8422cc9b1201c67fe4b6e5b3dbff6c50290143796ff6ba17e40cccea948e54e4"]
 
 [deps]
 
