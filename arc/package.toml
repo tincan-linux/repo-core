@@ -2,7 +2,7 @@
 version = "0.0.3"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
 sources = ["https://github.com/avs-origami/arc/archive/refs/tags/v0.0.3.tar.gz"]
-checksums = ["8422cc9b1201c67fe4b6e5b3dbff6c50290143796ff6ba17e40cccea948e54e4"]
+checksums = ["7296b4f777d849c78d2d253cfc80ce3bb1da54f213da952e1cbbb5fe5f84932f"]
 
 [deps]
 
