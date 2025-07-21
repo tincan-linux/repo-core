@@ -1,14 +1,14 @@
 [meta]
-version = "0.191"
+version = "0.193"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
 
 sources = [
-    "https://sourceware.org/elfutils/ftp/0.191/elfutils-0.191.tar.bz2",
+    "https://sourceware.org/elfutils/ftp/0.193/elfutils-0.193.tar.bz2",
     "files/musl.patch",
 ]
 
 checksums = [
-    "e9e3f567ab63784d968f708c08ea5a09dd5fae2f0846d0d43a2ebc8b542c15b2",
+    "c540dfc59d05c714b5e1d7893d514fc051f01814d1b01fc5e6fee811f5b7412b",
     "0b92f76da7cc952bcb8490b80320449d8cc0905ca2ba8c7c29052eae99e631ec",
 ]
 
