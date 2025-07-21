@@ -1,14 +1,14 @@
 [meta]
-version = "2.46.0"
+version = "2.50.1"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
 sources = [
-    "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz",
-    "https://mirrors.edge.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz",
+    "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.50.1.tar.xz",
+    "https://mirrors.edge.kernel.org/pub/software/scm/git/git-manpages-2.50.1.tar.xz",
 ]
 
 checksums = [
-    "7d6371191d9d4833a437c922ac3362b6c08161c17551785888763c31ad287a42",
-    "c779e156a39fefc593448c80dd4814e6f85c88ca813f739c013034972c01e0f7",
+    "7aaed55b8d58892e195dce50d2355e7506acb03cedcd0914fc2059368423f0b9",
+    "b2c248cfb9a9e6ac426baeb0cac69e4b0f190d1102eaca7ca12b18a74d86e3d0",
 ]
 
 [deps]
