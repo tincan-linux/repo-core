@@ -1,8 +1,8 @@
 [meta]
-version = "5.40.0"
+version = "5.42.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://www.cpan.org/src/5.0/perl-5.40.0.tar.gz"]
-checksums = ["8bfcbb999e0795a64ca90e1ba7308f49c30ab2619ffa25fa425527c4bfca5e0f"]
+sources = ["https://www.cpan.org/src/5.0/perl-5.42.0.tar.gz"]
+checksums = ["9d3e6aee850d69fb90c629a9e435da75f67c9ee0461d6e3e2c100e64f27fa9a5"]
 
 [deps]
 zlib = "*"
