@@ -1,8 +1,8 @@
 [meta]
-version = "8.0.14"
+version = "9.5.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/limine-bootloader/limine/releases/download/v8.0.14/limine-8.0.14.tar.xz"]
-checksums = ["bbc0cd73c49d69a8288d713fb7482a3706f11ce8e6307468ebd4a5df93eea5b6"]
+sources = ["https://github.com/limine-bootloader/limine/releases/download/v9.5.0/limine-9.5.0.tar.xz"]
+checksums = ["6fc57d9f0b7ee2dd96552978521f2e6ebf121b5073bd66802a648f9010a98c8a"]
 
 [deps]
 
