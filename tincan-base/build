@@ -6,3 +6,10 @@ mkdir -pv $1/etc
 for f in group hosts issue lsb-release os-release passwd; do
     cp $f $1/etc/
 done
+
+# Create base directory layout
+mkdir -pv $1/{bin,boot,dev,etc,home,lib/{firmware,modules}}
+mkdir -pv $1/{mnt,opt,proc,run,sys,tmp}
+mkdir -pv $1/var/{cache,lib,local,lock,log,mnt,opt,run,service,spool}
+install -dv -m 1777 $1/{var/,}tmp
+ln -svf . $1/usr
