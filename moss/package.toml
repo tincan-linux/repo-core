@@ -1,0 +1,10 @@
+[meta]
+version = "0.1.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/avs-origami/moss/archive/refs/tags/v0.1.0.tar.gz"]
+checksums = ["aead8d429f1585d7ee11d4d05417a18a390b93e1eb4fbd33ad66a17854cce602"]
+
+[deps]
+
+[mkdeps]
+rustup = "*"

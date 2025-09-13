@@ -2,4 +2,4 @@
 
 cargo build --release
 mkdir -pv $1/usr/bin
-cp target/release/arc $1/usr/bin/arc
+cp target/release/moss $1/usr/bin/moss
