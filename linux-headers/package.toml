@@ -1,8 +1,8 @@
 [meta]
-version = "6.5.3"
+version = "6.13.7"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.3.tar.xz"]
-checksums = ["b063c7ca0986358f22e9019617cbadb3404da6eb44133bee789f9c7565b1c121"]
+sources = ["https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.7.tar.xz"]
+checksums = ["9dda6ad3b457821eaafb890a1f9bbd179b9be33cadff7a6fd62befac7f794d2f"]
 strip = false
 
 [deps]
