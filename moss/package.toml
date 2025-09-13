@@ -7,4 +7,5 @@ checksums = ["aead8d429f1585d7ee11d4d05417a18a390b93e1eb4fbd33ad66a17854cce602"]
 [deps]
 
 [mkdeps]
+perl = "*"
 rustup = "*"
