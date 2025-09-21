@@ -1,9 +1,9 @@
 [meta]
-version = "0.2.0"
+version = "0.2.1"
 maintainer = "AVS Origami"
 
 sources = [
-    "https://github.com/tincan-linux/init/archive/refs/tags/v0.2.0.tar.gz",
+    "https://github.com/tincan-linux/init/archive/refs/tags/v0.2.1.tar.gz",
     "files/group",
     "files/hosts",
     "files/issue",
@@ -13,13 +13,13 @@ sources = [
 ]
 
 checksums = [
-    "28188af4df381cfafbb38821edf1453277b065304d21bfe176b0bd31d65be7ab",
+    "5da4ebeada9989f0b752e432c2fbfda2312bef8f25724813d28b8494d0ce9fac",
     "b54fab62aa208a7a6140cea42736676c8a57a4312c9ad667dfc39fb571219dd2",
     "62779d3a3c977afc86a74cabb66e662c7cba2084532da74afc2e635b748e3503",
-    "08983b8c39a0b44948153d05be6cbc28f03223d1d3e105bea66162fbaa5f5743",
+    "3292bc1f93810ac83979d640159a1cf14bca6848ea23f62b1c79d1724cf05c0f",
     "4d45cd6f6c5557a977dec4fdd0da60f3b3cc5f5326a9bc4a471698bb64c14708",
     "15f59dfe1186e4817d9d106de8d8034dab572a09ae97435af3537d4ddf8d654b",
-    "af55366fdf1022092da247ed948421f9a34f2a8fd22b521ef67512abbfa49492",
+    "09fc77c6f05e878a8c55d151bc59e7040c1faa5aed13fc60aee477d914ee2562",
 ]
 
 [deps]
