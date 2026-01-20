@@ -12,4 +12,4 @@ mkdir -pv $1/bin $1/boot $1/dev $1/etc $1/home $1/lib/firmware $1/lib/modules
 mkdir -pv $1/mnt $1/opt $1/proc $1/run $1/sys $1/tmp
 mkdir -pv $1/var/cache $1/var/lib $1/var/local $1/var/lock $1/var/log $1/var/mnt $1/var/opt $1/var/run $1/var/service $1/var/spool
 install -dv -m 1777 $1/var/tmp $1/tmp
-ln -svf . $1/usr
+#ln -svf . $1/usr

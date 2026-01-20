@@ -1,9 +1,9 @@
 [meta]
-version = "0.2.1"
+version = "0.2.2"
 maintainer = "AVS Origami"
 
 sources = [
-    "https://github.com/tincan-linux/init/archive/refs/tags/v0.2.1.tar.gz",
+    "https://github.com/tincan-linux/init/archive/refs/tags/v0.2.2.tar.gz",
     "files/group",
     "files/hosts",
     "files/issue",
@@ -13,7 +13,7 @@ sources = [
 ]
 
 checksums = [
-    "5da4ebeada9989f0b752e432c2fbfda2312bef8f25724813d28b8494d0ce9fac",
+    "87081c7f9532588436f3e5bd81d6791aa4a4b0bfa513cf4bda933cd0d6f33b46",
     "b54fab62aa208a7a6140cea42736676c8a57a4312c9ad667dfc39fb571219dd2",
     "62779d3a3c977afc86a74cabb66e662c7cba2084532da74afc2e635b748e3503",
     "3292bc1f93810ac83979d640159a1cf14bca6848ea23f62b1c79d1724cf05c0f",
